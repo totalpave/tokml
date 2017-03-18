@@ -170,7 +170,8 @@ var geometry = {
 };
 
 function linearring(_) {
-    return _.map(function(cds) { return cds.join(','); }).join(' ');
+    return _;
+    // return _.map(function(cds) { return cds.join(','); }).join(' ');
 }
 
 // ## Data
